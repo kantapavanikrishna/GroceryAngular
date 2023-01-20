@@ -1,0 +1,13 @@
+
+   form{
+    position: absolute; 
+    top:200px; 
+    right:500px;
+   }
+   .vh-100{
+    background-color: rgb(255, 255, 255); 
+    background-image:url(https://img.freepik.com/premium-photo/ingredients-homemade-pizza-white-wooden-background_35641-2959.jpg?w=826) ; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    /* filter: brightness(.8); */
+   }

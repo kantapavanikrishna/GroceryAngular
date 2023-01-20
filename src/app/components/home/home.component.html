@@ -1,0 +1,164 @@
+<div>
+    <div class="header"  >
+      <nav>
+        <img src="https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?w=826&t=st=1672298754~exp=1672299354~hmac=2cac234578279332e7a3a8a50751c8ce61294f6e94e679129bf27bf76c6a266d" style="height: 45px;position: inherit; left: 10px;top: -3px;">
+        
+        <ul>
+          <li style="position: absolute; left: 50px;" >Daily Grocery</li>
+          <li class="searchbox">
+            <input type="text" placeholder=" Search...." name="search" style="top: 20px;" [(ngModel)]="enteredSearchValue" (input)="onSearchTextChanged()">   
+            <button style="background-color: white;"> <img src="https://cdn-icons-png.flaticon.com/128/875/875623.png" style="height: 22px;position:absolute;top: 12px;">
+                
+            </button>
+          </li>
+          <li class="nav-item"><a routerLink="/home" routerLinkActive="active" class="nav-link" >Home</a></li>
+          <li class="nav-item"><a routerLink="/first" routerLinkActive="active" class="nav-link">Logout</a></li>
+          
+        </ul>
+      </nav>
+      
+      
+      
+      <div class="f">
+        <h4>Fruits</h4>
+        <img style="height: 140px;" src="https://img.freepik.com/free-photo/exotic-delicious-pomegranate-white-background_144627-12571.jpg?w=826&t=st=1672398373~exp=1672398973~hmac=b2191c7f3d9d86999d6ce0fc7fb1a11fcd0d7d02f189b557989dfe477c090c16">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:50px;border:none;height: 40px;width: 110px; background-color: #3f51b5;">Pomegranate</button>
+      </div>
+      <img style="height: 150px; position: absolute;top: 40px;left: 210px;" src="https://img.freepik.com/free-photo/fresh-kiwi-fruit-isolated_144627-30032.jpg?w=900&t=st=1672638583~exp=1672639183~hmac=7fc4decd06a3a914c93b5768088e80e20e02414456087aa6e7fae868db8c2686">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:275px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Kiwi</button>
+      </div>
+      <img style="height: 100px; position: absolute;top: 70px;left: 455px;" src="https://img.freepik.com/free-photo/fresh-papaya-fruit_144627-34219.jpg?w=900&t=st=1672639913~exp=1672640513~hmac=99833d32fbcb94375417f8d925bb3d1a95826dded3d8cd4cea4e846a3dfc1e11">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:490px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Papaya</button>
+      </div>
+      <img style="height: 100px; position: absolute;top: 70px;left: 650px;" src="https://img.freepik.com/premium-photo/bunch-ripe-banana-isolated_80510-823.jpg?w=900">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:690px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Banana</button>
+      </div>
+      <button (click)=f() style="background-color: rgba(225, 239, 199, 0.932);height: 100px;width: 100px;position:absolute;left:855px;top: 90px;border: none;">
+        <h4>  More</h4>
+</button>
+      
+      </div>
+
+      <div class="v">
+        <h4>Vegetables</h4>
+        <img style="height: 140px;" src="https://img.freepik.com/free-photo/red-onion-whole-isolated-white_146671-19175.jpg?w=900&t=st=1668016901~exp=1668017501~hmac=52556c8be2e4a51620e9e2085effe35891d97cade7a2ca81f7c90146542f21af">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:50px;border:none;height: 40px;width: 110px; background-color: #3f51b5;">Onion</button>
+      </div>
+      <img style="height: 130px; position: absolute;top: 45px;left: 200px;" src="https://img.freepik.com/premium-photo/green-cabbage-vegetables-isolated-white_80510-721.jpg?w=826">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:255px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Cabbage</button>
+      </div>
+      <img style="height: 140px; position: absolute;top: 40px;left: 420px;" src="https://img.freepik.com/premium-photo/red-tomatoes-with-cut-isolated-white_80510-574.jpg?w=826">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:470px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Tomato</button>
+      </div>
+      <img style="height: 155px; position: absolute;top: 50px;left: 610px;" src="https://img.freepik.com/premium-photo/bitter-melon-isolated_62193-144.jpg?w=900">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:680px;border:none;height: 40px;width:100px; background-color: #3f51b5;">Bitter Gourd</button>
+      </div>
+      <button (click)=v() style="background-color: rgba(225, 239, 199, 0.932);height: 100px;width: 100px;position:absolute;left:855px;top: 90px;border: none;">
+        <h4>  More</h4>
+</button>
+      
+      </div>
+
+      <div class="d">
+        <h4>Dry Fruits</h4>
+        <img style="height: 140px;position: absolute;top: 55px;" src="https://img.freepik.com/premium-photo/almonds-isolated-white-background_86117-608.jpg?w=900">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:50px;border:none;height: 40px;width: 110px; background-color: #3f51b5;">Almond</button>
+      </div>
+      <img style="height: 130px; position: absolute;top: 45px;left: 220px;" src="https://img.freepik.com/free-photo/fresh-walnut_144627-16132.jpg?w=826&t=st=1672649604~exp=1672650204~hmac=d93dbe50a6c6231cd810d40995175dcfe1c3f2ac58f4d0aaa3c322c0bf4133dc">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:255px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Walnut</button>
+      </div>
+      <img style="height: 140px; position: absolute;top: 50px;left: 420px;" src="https://img.freepik.com/premium-photo/pistachio-isolated-white-background-clipping-path_174533-1600.jpg?w=900">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:470px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Pistachio</button>
+      </div>
+      <img style="height: 115px; position: absolute;top: 67px;left: 640px;" src="https://img.freepik.com/premium-photo/dried-raisins-white-isolated_55883-6638.jpg?w=996">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:680px;border:none;height: 40px;width:100px; background-color: #3f51b5;">Raisins</button>
+      </div>
+      <button (click)=d() style="background-color: rgba(225, 239, 199, 0.932);height: 100px;width: 100px;position:absolute;left:855px;top: 90px;border: none;">
+        <h4>  More</h4>
+</button>
+      
+      </div>
+
+      <div class="p">
+        <h4>Pulses</h4>
+        <img style="height: 130px;position: absolute;top: 55px;" src="https://img.freepik.com/free-photo/mung-beans-isolated-white-background_93675-132359.jpg?w=900&t=st=1672652724~exp=1672653324~hmac=5fb1e693f840ee0a83b2c7fd6139c0e0fc5c20abd9f24206c80367b04777482c">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:50px;border:none;height: 40px;width: 110px; background-color: #3f51b5;">Green Gram</button>
+      </div>
+      <img style="height: 120px; position: absolute;top: 65px;left: 220px;" src="https://img.freepik.com/free-photo/chickpea_1368-6565.jpg?w=900&t=st=1672652812~exp=1672653412~hmac=3b852c393fcb5d90534eb6f08cd430ff5a9f4ec0c7e82323db781eef4ca80f5f">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:255px;border:none;height: 40px;width:90px; background-color: #3f51b5;">Chickpeas</button>
+      </div>
+      <img style="height: 110px; position: absolute;top: 70px;left: 430px;" src="https://img.freepik.com/premium-photo/red-beans_42044-2857.jpg?w=900">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:450px;border:none;height: 40px;width:120px; background-color: #3f51b5;">Kideny Beans</button>
+      </div>
+      <img style="height: 115px; position: absolute;top: 67px;left: 640px;" src="https://img.freepik.com/free-photo/seeds_1368-6562.jpg?w=900&t=st=1672653897~exp=1672654497~hmac=a9e7ee2bc9a0f4be1a71fdf3a7d1bd6d91131a300640578d9dc4bccefa992d11">
+        <div class="pt-1 mb-4">
+        <button class="btn btn-success" style="position: absolute;top: 200px;left:655px;border:none;height: 40px;width:150px; background-color: #3f51b5;">Black Eyed Seeds</button>
+      </div>
+      <button (click)=p() style="background-color: rgba(225, 239, 199, 0.932);height: 100px;width: 100px;position:absolute;left:855px;top: 90px;border: none;">
+              <h4>  More</h4>
+      </button>
+      
+      </div>
+
+    </div>
+
+    <div class="container py-3 h-100" style="padding-left:20px ; position: absolute; top: -98px;" >
+      <div  class="row d-flex justify-content-center align-items-center h-100">
+        <div  class="col">
+          <div  class="card card-registration my-4" style=" width: 54rem; height: 17rem;background-image: url(https://img.freepik.com/premium-photo/vegetables-fruits-white_55883-892.jpg?w=1060); background-repeat: no-repeat;background-size: 480px;background-position: 400px;">
+            <div  class="row g-0">
+              <div  class="col-xl-6 d-none d-xl-block">
+                <!-- <img src="https://cdn-icons-png.flaticon.com/512/2828/2828628.png"> -->
+              </div>
+              <div  class="col-xl-6">
+                <div  class="card-body p-md-5 text-black">
+                    <h3></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="container py-3 h-100" style="padding-left:1000px ; position: absolute; top: -75px;" >
+    <div  class="row d-flex justify-content-center align-items-center h-100">
+      <div  class="col">
+        <div  class="card card-registration my-4" style=" width: 15rem; height: 20rem;background-image: url();">
+          <div  class="row g-0">
+            <div  class="col-xl-6 d-none d-xl-block">
+              <!-- <img src="https://cdn-icons-png.flaticon.com/512/2828/2828628.png"> -->
+            </div>
+            <div  class="col-xl-6">
+              <div  class="card-body p-md-5 text-black">
+                <ul style="list-style: none;">
+                  <li class="nav-item" style="position: absolute;left:20px; color: rgb(141, 141, 7); font-size: 20px;"><a routerLink="/first" routerLinkActive="active" class="nav-link"><b>Categories</b></a></li>
+                  <li class="nav-item" style="position: absolute;left:60px; top:100px;color: rgb(0, 0, 0);"><a routerLink="/fruits" routerLinkActivate="active" class="nav-link" > Fruits</a></li>
+                  <li class="nav-item" style="position: absolute;left:60px; top:150px;color: rgb(0, 0, 0);"><a routerLink="/vegetables" routerLinkActive="active" class="nav-link" >Vegetables</a></li>
+                  <li class="nav-item" style="position: absolute;left:60px; top:200px;color: rgb(0, 0, 0);"><a routerLink="/dry" routerLinkActive="active" class="nav-link">Dry Fruits</a></li>
+                  <li class="nav-item" style="position: absolute;left:60px; top:250px;color: rgb(0, 0, 0);"><a routerLink="/pulses" routerLinkActive="active" class="nav-link">Pulses</a></li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

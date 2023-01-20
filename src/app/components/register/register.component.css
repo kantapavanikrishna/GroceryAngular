@@ -1,0 +1,46 @@
+/* https://img.freepik.com/free-photo/woman-shopping-organic-vegetables-fruits_1150-17781.jpg?w=900&t=st=1671125560~exp=1671126160~hmac=f874822c7e055a6e390a2a22ad91053adb4c99f7f61a6819953984361b78a8d5 */
+  
+/* .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 1;
+    padding-left: .100em;
+    padding-right: .75em;
+    } */
+    .card-registration .select-arrow {
+        top: 10px;
+        }
+    
+        img{
+            width: 450px;
+            height: 450px;        
+            padding: 50px;
+            
+            position: absolute;
+            top:5%;
+            
+           
+    
+        }
+        
+        .button {
+            background-color: #9daf4c; /* Green */
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            /* margin: 4px 2px; */
+            cursor: pointer;
+          }
+        b{
+          text-decoration: aliceblue;
+        }
+
+        .h-10{
+            background-color: rgb(255, 255, 255); 
+            background-image: url(https://img.freepik.com/free-photo/woman-shopping-organic-vegetables-fruits_1150-17781.jpg?w=900&t=st=1671125560~exp=1671126160~hmac=f874822c7e055a6e390a2a22ad91053adb4c99f7f61a6819953984361b78a8d5);
+            background-repeat: no-repeat;  
+            background-size: 100%; 
+        }
